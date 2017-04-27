@@ -1,0 +1,413 @@
+@font-face {
+	font-family: "HelveticaRegular";
+	src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");
+	src: url("../fonts/HelveticaRegular/HelveticaRegular?#iefix") format("embedded-opentype"),
+			 url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"),
+			 url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Proxima Nova Extrabold";
+	src: url("../fonts/Proxima Nova Extrabold.eot");
+	src: url("../fonts/Proxima Nova Extrabold?#iefix") format("embedded-opentype"),
+			 url("../fonts/Proxima Nova Extrabold.woff") format("woff"),
+			 url("../fonts/Proxima Nova Extrabold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Proxima Nova Regular";
+	src: url("../fonts/Proxima Nova Regular.eot");
+	src: url("../fonts/Proxima Nova Regular?#iefix") format("embedded-opentype"),
+			 url("../fonts/Proxima Nova Regular.woff") format("woff"),
+			 url("../fonts/Proxima Nova Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Proxima Nova Semibold";
+	src: url("../fonts/Proxima Nova Semibold.eot");
+	src: url("../fonts/Proxima Nova Semibold?#iefix") format("embedded-opentype"),
+			 url("../fonts/Proxima Nova Semibold.woff") format("woff"),
+			 url("../fonts/Proxima Nova Semibold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "ionicons";
+	src: url("../libs/ionicons/fonts/ionicons.eot");
+	src: url("../libs/ionicons/fonts/ionicons.eot?#iefix") format("embedded-opentype"),
+			 url("../libs/ionicons/fonts/ionicons.woff") format("woff"),
+			 url("../libs/ionicons/fonts/ionicons.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+* { 
+	margin:0; 
+	padding:0; 
+} 
+html, body, .wrapper { 
+	height: 100%; 
+
+}
+body{
+	overflow-x:hidden;
+}
+body > .wrapper {
+	height: auto; 
+	min-height: 100%;
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+} 
+.container{
+	max-width: 1240px;
+	width: 100%;
+}
+footer { 
+    position: relative;
+	margin-top: -400px; 
+	min-height: 400px;
+	clear:both;
+	background-color: #000;
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+} 
+/* CLEAR FIX*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .clearfix { 
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+body{
+	font-family: 'Proxima Nova Regular';
+	font-size: 15px;
+	line-height: 30px;
+	color: #000;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+ul{
+	list-style-type: none;
+}
+h1{
+	font-family: "Proxima Nova Extrabold";
+	font-size: 80px;
+	color: #fff;
+	text-transform: uppercase;
+}
+h2{
+	font-family: "Proxima Nova Extrabold";
+	font-size: 48px;
+	text-transform: uppercase;
+}
+h3{
+	font-family: "Proxima Nova Semibold";
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+h6{
+	font-family: "Proxima Nova Semibold";
+	font-size: 16px;
+	line-height: 30px;
+	text-transform: capitalize;
+}
+.navbar{
+	min-height: 115px;
+	background-color: #000;
+	margin-bottom: 0;
+}
+.navbar ul li{
+	font-family: "Proxima Nova Semibold";
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.navbar ul li a{
+	color: #fff;
+}
+.navbar ul li a:hover,
+.navbar ul li a.active{
+	background-color: transparent;
+	text-decoration: underline;
+}
+.navbar-collapse{
+	margin-top: 30px;
+}
+.navbar-form{
+	margin-left: 160px;
+}
+.navbar-form .input-group-addon{
+	font-family: "Proxima Nova Regular";
+	font-size: 13px;
+	background-color: #c7c7c7;
+	color: #fff;
+	text-transform: uppercase;
+}
+.navbar-form .input-group-addon:hover,
+.navbar-form .input-group-addon.active{
+	color: #c7c7c7;
+	background-color: #fff;
+	border-color: #c7c7c7;
+	cursor: pointer;
+}
+.navbar-form .input-group-addon span{
+	margin-right: 5px;
+}
+.navbar button[type=button]{
+	border: 2px solid #fff;
+	margin-top: 30px;
+}
+.navbar button span{
+	border: 1px solid #fff;
+}
+footer h6{
+	color: #fff;
+}
+footer ul li a{
+	color: #fff;
+}
+footer ul li{
+	font-family: "Proxima Nova Regular";
+	font-size: 14px;
+	line-height: 30px;
+}
+.footer-top{
+	padding-top: 75px;
+}
+.footer-top .social{
+	margin-top: 60px;
+}
+.footer-top .social li{
+	display: inline-block;
+}
+.footer-top .social li i{
+	font-size: 20px;
+	margin-left: 24px;
+}
+.footer-top .social li:first-child i{
+	margin-left: 0;
+}
+.footer-top .input-group-addon:hover,
+.footer-top .input-group-addon.active{
+	color: #c7c7c7;
+	background-color: #fff;
+	border-color: #c7c7c7;
+	cursor: pointer;
+}
+.footer-top ul li a:hover,
+.footer-top ul li a.active{
+	text-decoration: underline;
+	color: #fff;
+	
+}
+.footer-top .input-group span{
+	font-family: "Proxima Nova Extrabold";
+	font-size: 15px;
+	text-transform: uppercase;
+	line-height: 17px;
+	color: #010101;
+}
+.footer-bottom{
+	padding-top: 20px;
+}
+.footer-bottom p{
+	font-family: "Proxima Nova Semibold";
+	font-size: 14px;
+	color: #fff
+}
+.footer-bottom .footer-select{
+	display: inline-block;
+	float: right;
+}
+.dropup img{
+	padding-right: 20px;
+}
+.dropup button{
+	font-family: "Proxima Nova Semibold";
+	font-size: 14px;
+	color: #fff;
+	background-color: #000;
+	border: none;
+}
+.dropup ul li a{
+	font-family: "Proxima Nova Semibold";
+	font-size: 14px;
+	color: #000;
+}
+.dropup ul li a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+	background-color: transparent;
+}
+.dropup button:hover,
+.dropup button:active{
+	text-decoration: underline;
+	cursor: pointer;
+	background-color: #000;
+	color: #fff;
+}
+.carousel-inner .item img{
+	min-height: 400px;
+	height: auto;
+}
+.carousel-inner button{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #000;
+	border: 1px solid #000;
+	padding: 13px 30px;
+	font-family: "Proxima Nova Extrabold";
+}
+.carousel-inner h1{
+	text-align: left;
+}
+.carousel-inner .item1 h1{
+	color: #000;
+}
+.item1{
+	position: relative;
+	
+}
+.item1 h1{
+	position: absolute;
+	margin-top: -40%;
+}
+.item1 button{
+	position: absolute;
+	margin-top: -12%;
+}
+.item2{
+	position: relative;
+	
+}
+.item2 h1{
+	position: absolute;
+	margin-top: -50%;
+}
+.item2 button{
+	position: absolute;
+	margin-top: -20%;
+}
+.snowboards h2{
+	text-align: center;
+	margin: 100px auto 80px;
+}
+
+/*owl-carousel*/
+#owl-demo .item{
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  height: 450px;
+}
+.owl-carousel .item{
+	opacity: 0.5;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+.owl-carousel .item:hover{
+	opacity: 1;
+}
+.owl-carousel .item h3{
+	margin-top: 400px;
+	color: #000;
+	text-transform: uppercase;
+	display: none;
+}
+.owl-carousel .item:hover h3{
+	display: block;
+}
+.owl-carousel .item-1{
+	background-image:url(../img/board1.png);
+}
+.owl-carousel .item-2{
+	background-image:url(../img/board2.png);
+}
+.owl-carousel .item-3{
+	background-image:url(../img/board3.png);
+}
+.owl-carousel .item-4{
+	background-image:url(../img/board4.png);
+}
+.owl-carousel .item-5{
+	background-image:url(../img/board5.png);
+}
+
+/*COMPANY*/
+.company{
+	max-width: 1400px;
+    width: 100%;
+    min-height: 955px;
+    height: auto;
+    margin: 95px auto;
+    background: #fff url(../img/bg-company.png) center no-repeat;
+}
+.company h2{
+	font-size: 49px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	max-width: 480px;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 250px;
+	 
+}
+.company p{
+	font-family: "Proxima Nova Regular";
+	font-size: 15px;
+	line-height: 30px;
+	color: #fff;
+	max-width: 480px;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 75px;
+}
+.company:hover{
+	-webkit-filter: grayscale(100%);
+  	-moz-filter: grayscale(100%);
+  	-ms-filter: grayscale(100%);
+  	-o-filter: grayscale(100%);
+ 	filter: grayscale(100%);
+  	filter: gray; /* IE 6-9 */
+}
+
+/*GALLERY*/
+ .gallery{
+ 	margin-bottom: 100px;
+ }
+ .gallery h2{
+	font-weight: bold;
+	text-align: center;
+	padding-top: 60px;
+	 
+}
+ .gallery hr{
+ 	border: 1px solid black;
+ 	margin-bottom: 50px;
+ }
+

@@ -1,0 +1,104 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.navbar-form{
+	margin-left: 0px;
+	}
+	.item1 h1{
+		margin-top: -50%;
+	}
+	.item1 button{
+		margin-top: -15%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.navbar-form{
+	margin-left: 0px;
+	display: block;
+	}
+	.item1 h1,
+	.item2 h1	{
+		margin-top: -60%;
+	}
+	.item1 button,
+	.item2 button	{
+		margin-top: -15%;
+	}
+	.gallery .gallery-item{
+		width: 225px;
+		display: block;
+		margin: 10px auto;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.footer-top div,
+	.footer-bottom div{
+		max-width: 350px;
+		margin-top: 20px;
+		text-align: center;
+	}
+	.footer-bottom button{
+		display: block;
+		margin: 0 auto;
+		width: 280px;
+	}
+	.item1 h1,
+	.item2 h1{
+		font-size: 50px;
+		margin-top: -50%;
+	}
+	.item1 button,
+	.item2 button{
+		margin-top: -15%;
+		padding: 5px 10px;
+	}
+	h2{
+		font-size: 40px;
+	}
+	.company h2{
+		padding-top: 150px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.item1 h1,
+	.item2 h1{
+		font-size: 26px;
+		margin-top: -70%;
+	}
+	.item1 button,
+	.item2 button{
+		font-size: 8px;
+		line-height: 10px;
+		margin-top: -30%;
+		padding: 5px 5px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	.company h2{
+		font-size: 35px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.company h2{
+		font-size: 28px;
+		padding-top: 50px; 
+	}
+	.item1 h1,
+	.item2 h1{
+		font-size: 22px;
+		margin-top: -90%;
+	}
+	.item1 button,
+	.item2 button{
+		font-size: 8px;
+		line-height: 10px;
+		margin-top: -60%;	
+	}
+}
